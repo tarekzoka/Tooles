@@ -1,7 +1,6 @@
 #!/bin/sh
-echo
+opkg update && opkg upgrade
 opkg install enigma2-plugin-systemplugins-serviceapp
-opkg install --force-reinstall enigma2-plugin-systemplugins-serviceapp
 opkg install gstreamer1.0-plugins-good
 opkg install gstreamer1.0-plugins-base
 opkg install gstreamer1.0-plugins-bad
